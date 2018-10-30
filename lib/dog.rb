@@ -9,7 +9,7 @@ class Dog
     "#{@name}".strip
   end
 
-  def initialize(breed)
+  def breed=(breed)
     @breed=breed
   end
   def breed

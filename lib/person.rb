@@ -12,5 +12,3 @@ class Person
     "#{job}"
   end
 end
-
-fido=Dog.new

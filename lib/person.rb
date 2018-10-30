@@ -3,7 +3,7 @@ class Person
     @name=name
   end
   def name (name)
-    @name=name
+    "#{@name}".strip
   end
   def job=(job)
     "#{job}"

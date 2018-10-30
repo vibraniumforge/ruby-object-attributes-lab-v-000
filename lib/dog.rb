@@ -13,6 +13,6 @@ class Dog
     @breed=breed
   end
   def breed(breed)
-    "#{breed}.strip"
+    "#{@breed}.strip"
   end
 end

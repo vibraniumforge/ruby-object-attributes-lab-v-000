@@ -13,3 +13,5 @@ class Dog
     "#{breed}.strip"
   end
 end
+
+fido=Dog.new
